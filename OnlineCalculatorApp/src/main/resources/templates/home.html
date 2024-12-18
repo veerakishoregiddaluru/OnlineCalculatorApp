@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head><link href="/css/home.css" rel="stylesheet" type="text/css"><title>Home Page</title></head>
+	
+	<body id="body">
+		<h1 id="wlc">Welcome User! Welcome to the Calculator @App </h1>
+	
+		<br>
+		<br>
+		<img src="/images/calc.jpg" height="300px" width="500px" class="img">
+		
+		<hr class="hr" >
+	
+		<div class="dv1">
+			
+		<form action="/calculate" method="post">
+			<div id="div1">
+		<label class="lb">ENTER NUM1: </label><input type="number" name="n1" required placeholder="Enter Num1">
+		<br>
+		<br>
+		<label class="lb">ENTER NUM2: </label><input type="number"  name="n2"  required placeholder="Enter Num2">
+		<br>
+		<br>
+			</div>
+			<div id="div2">
+		<button type="submit" name="operation" value="add" class="btn">ADDITION</button>
+		<button type="submit" name="operation" value="sub" class="btn">SUBTRACTION</button>
+		<button type="submit" name="operation" value="mul" class="btn">MULTIPLICATION</button>
+		<button type="submit" name="operation" value="div" class="btn">DIVISION</button>
+		<button type="submit" name="operation" value="mod" class="btn">MODULUS</button>
+		</div>
+		</form>
+		
+		
+	</body>
+</html>
